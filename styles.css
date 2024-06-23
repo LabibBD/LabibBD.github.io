@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-  GNU nano 8.0                       styles.css
-=======
->>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
 /* styles.css */
 
 body {
@@ -9,76 +5,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    background-color: #f0f0f0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-=======
-    background-color: #f4f4f4;
->>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
+    background-color: #f4f4f4; /* Adjusted background color */
 }
 
 .container {
     width: 80%;
-<<<<<<< HEAD
-    margin: 0 auto;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.section {
-    padding: 80px 0;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
-}
-
-.profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.profile-info {
-    flex: 1;
-    text-align: left;
-}
-
-.profile-pic {
-    width: 300px; /* Adjust size as needed */
-    height: auto;
-    border-radius: 50%; /* Ensures a round image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
-=======
-    margin: auto;
-    overflow: hidden;
+    margin: auto; /* Adjusted margin for centering */
+    overflow: hidden; /* Added overflow */
 }
 
 header {
@@ -157,13 +90,13 @@ footer {
     margin: 0 0.5rem;
 }
 
-social-links li a {
+.social-links li a {
     color: #fff;
     font-size: 1.5rem;
     transition: color 0.3s ease;
 }
 
-social-links li a:hover {
+.social-links li a:hover {
     color: #bbb;
 }
 
@@ -176,7 +109,8 @@ form label {
     margin: 0.5rem 0 0.2rem;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     padding: 0.5rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
@@ -195,5 +129,4 @@ form button {
 
 form button:hover {
     background: #555;
->>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
 }
