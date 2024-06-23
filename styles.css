@@ -15,67 +15,59 @@ body {
 }
 
 header {
-    background: #333;
+    background-color: #333;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
-header nav ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 0.5rem;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: background 0.3s ease;
-}
-
-header nav ul li a:hover {
-    background: #555;
-    border-radius: 5px;
+    margin-right: 20px;
 }
 
 .section {
-    padding: 2rem 0;
-    background: #fff;
-    margin: 1rem 0;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
-}
-
-.project {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    margin: 1rem 0;
-    background: #f9f9f9;
-    transition: transform 0.3s ease;
-}
-
-.project:hover {
-    transform: scale(1.05);
-}
-
-.project img {
-    max-width: 100%;
-    height: auto;
+    padding: 80px 0;
+    text-align: center;
 }
 
 footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 20px 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-info {
+    flex: 1;
+    text-align: left;
+}
+
+.profile-pic {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 50%; /* Ensures a round image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
 }
 
 .social-links {
