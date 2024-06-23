@@ -15,40 +15,66 @@ body {
 }
 
 header {
-    background-color: #333;
+    background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 1rem 0;
+    text-align: center;
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
 
-nav ul {
-    list-style-type: none;
+header nav ul {
+    list-style: none;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 0.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
 }
 
 .section {
-    padding: 80px 0;
+    padding: 2rem 0;
+    background: #fff;
+    margin: 1rem 0;
     text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
-    position: relative;
-    margin-top: 20px;
+    padding: 1rem 0;
 }
 
-footer p {
-    margin: 0;
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #f9f9f9;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
 }
 
 .profile {
@@ -68,6 +94,10 @@ footer p {
     height: auto;
     border-radius: 50%; /* Ensures a round image */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+footer p {
+    margin: 0;
 }
 
 .social-links {
