@@ -1,4 +1,7 @@
+<<<<<<< HEAD
   GNU nano 8.0                       styles.css
+=======
+>>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
 /* styles.css */
 
 body {
@@ -6,6 +9,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #f0f0f0;
 }
 
@@ -16,10 +20,14 @@ header {
     position: fixed;
     width: 100%;
     z-index: 1000;
+=======
+    background-color: #f4f4f4;
+>>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
 }
 
 .container {
     width: 80%;
+<<<<<<< HEAD
     margin: 0 auto;
 }
 
@@ -68,4 +76,124 @@ footer p {
     height: auto;
     border-radius: 50%; /* Ensures a round image */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+=======
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 2rem 0;
+    background: #fff;
+    margin: 1rem 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem 0;
+    background: #f9f9f9;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+.social-links li {
+    margin: 0 0.5rem;
+}
+
+social-links li a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+social-links li a:hover {
+    color: #bbb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #555;
+>>>>>>> b9a837f29db32d1fe5ec5c40803f24c3be2d1537
 }
